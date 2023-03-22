@@ -3,8 +3,8 @@ import { View } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Picker } from '@react-native-picker/picker';
 import { useTranslation } from 'react-i18next';
-import Switch from "./Switch";
-import styles from "./styles";
+import Switch from "../components/Switch";
+import styles from "../components/styles";
 
 export default function Settings({ first, second, onUpdateFirst, onUpdateSecond }) {
     const { t, i18n } = useTranslation();
